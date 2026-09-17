@@ -1,54 +1,757 @@
-<header>
-    <h1>🐾 Curiosidades do Mundo Animal</h1>
-  
-    <nav>
-      <a href="#">Início</a>
-      <a href="#">Curiosidades</a>
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta
+    name="description"
+    content="Descubra curiosidades incríveis sobre o mundo animal."
+  >
+
+  <title>🐾 Curiosidades do Mundo Animal</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- ==================================================
+       ELEMENTOS DECORATIVOS DO FUNDO
+  =================================================== -->
+
+  <div class="bolha bolha-1"></div>
+  <div class="bolha bolha-2"></div>
+  <div class="bolha bolha-3"></div>
+
+
+  <!-- ==================================================
+       HEADER
+  =================================================== -->
+
+  <header class="cabecalho">
+
+    <a href="#inicio" class="logo">
+      <span class="logo-animal">🐾</span>
+
+      <span>
+        Mundo<br>
+        <strong>Animal</strong>
+      </span>
+    </a>
+
+
+    <nav class="menu">
+
+      <a href="#inicio">Início</a>
+
+      <a href="#curiosidades">
+        Curiosidades
+      </a>
+
+      <a href="#sobre">
+        Sobre
+      </a>
+
     </nav>
+
+    <div class="mini-animal">
+      🦋
+    </div>
+
   </header>
-  
-  <main>
-    <h2>Você sabia disso?</h2>
-  
-    <p class="introducao">
-      Passe o mouse sobre os cards e descubra o que é mito e o que é verdade!
-    </p>
-  
-    <section>
-      <article>
-        <div>
-          <div>
-            <img src="https://images.unsplash.com/photo-1546182990-dffeafbe841d?w=800" alt="Leão" class="cartao-imagem">
-            <p>🦁 Leões vivem apenas na África!</p>
-          </div>
-  
-  ```
-      <div class="cartao-verso">
-        <img src="https://images.unsplash.com/photo-1546182990-dffeafbe841d?w=800" alt="Leão" class="cartao-imagem">
-        <p>❌ Mito! Existem leões também em uma pequena região da Índia.</p>
+
+
+
+  <!-- ==================================================
+       CONTEÚDO PRINCIPAL
+  =================================================== -->
+
+  <main id="inicio">
+
+
+    <!-- ==================================================
+         HERO
+    =================================================== -->
+
+    <section class="hero">
+
+      <div class="hero-texto">
+
+        <span class="pequeno-titulo">
+          🌎 EXPLORE A NATUREZA
+        </span>
+
+        <h1>
+          O mundo animal é
+          <span>mais incrível</span>
+          do que você imagina!
+        </h1>
+
+        <p>
+          Descubra fatos surpreendentes, desafie seus conhecimentos
+          e descubra o que é mito e o que é verdade.
+        </p>
+
+        <a href="#curiosidades" class="botao">
+          Descobrir curiosidades
+          <span>→</span>
+        </a>
+
       </div>
-    </div>
-  </article>
-  
-  <article>
-    <div>
-      <div>
-        <img src="https://images.unsplash.com/photo-1564349683136-77e08dba1ef7?w=800" alt="Panda" class="cartao-imagem">
-        <p>🐼 Pandas comem apenas bambu!</p>
+
+
+      <div class="hero-animal">
+
+        <div class="circulo-grande"></div>
+
+        <div class="animal-principal">
+          🦁
+        </div>
+
+        <div class="animal-flutuante animal-1">
+          🦋
+        </div>
+
+        <div class="animal-flutuante animal-2">
+          🐝
+        </div>
+
+        <div class="animal-flutuante animal-3">
+          🌿
+        </div>
+
+        <div class="animal-flutuante animal-4">
+          🐾
+        </div>
+
       </div>
-  
-      <div class="cartao-verso">
-        <img src="https://images.unsplash.com/photo-1564349683136-77e08dba1ef7?w=800" alt="Panda" class="cartao-imagem">
-        <p>✅ Verdade! O bambu é a principal parte da alimentação dos pandas.</p>
-      </div>
-    </div>
-  </article>
-  ```
-  
+
     </section>
+
+
+
+    <!-- ==================================================
+         INDICADOR
+    =================================================== -->
+
+    <div class="indicador">
+
+      <span></span>
+
+      <p>
+        Role para explorar
+      </p>
+
+      <span></span>
+
+    </div>
+
+
+
+    <!-- ==================================================
+         TÍTULO DOS CARDS
+    =================================================== -->
+
+    <section
+      class="secao-curiosidades"
+      id="curiosidades"
+    >
+
+      <div class="titulo-secao">
+
+        <span>
+          ✨ VOCÊ SABIA?
+        </span>
+
+        <h2>
+          Verdade ou <strong>mito?</strong>
+        </h2>
+
+        <p>
+          Passe o mouse sobre os cards para descobrir a resposta.
+        </p>
+
+      </div>
+
+
+
+      <!-- ==================================================
+           CARDS
+      =================================================== -->
+
+      <div class="cards">
+
+
+        <!-- ==================================================
+             CARD 1 - LEÃO
+        =================================================== -->
+
+        <article class="card-container">
+
+          <div class="card">
+
+
+            <!-- FRENTE -->
+
+            <div class="card-face card-frente">
+
+              <div class="numero">
+                01
+              </div>
+
+              <div class="imagem-container">
+
+                <img
+                  src="https://images.unsplash.com/photo-1546182990-dffeafbe841d?w=1000"
+                  alt="Leão descansando"
+                >
+
+                <div class="imagem-overlay"></div>
+
+                <span class="icone-animal">
+                  🦁
+                </span>
+
+              </div>
+
+
+              <div class="card-info">
+
+                <span class="categoria">
+                  🐾 MAMÍFERO
+                </span>
+
+                <h3>
+                  Leões vivem apenas na África?
+                </h3>
+
+                <div class="passe">
+                  <span>↻</span>
+                  Passe o mouse
+                </div>
+
+              </div>
+
+            </div>
+
+
+
+            <!-- VERSO -->
+
+            <div class="card-face card-verso mito-card">
+
+              <div class="verso-topo">
+
+                <span class="resultado mito">
+                  ✕ MITO
+                </span>
+
+                <span class="numero">
+                  01
+                </span>
+
+              </div>
+
+              <div class="simbolo-resposta">
+                ❌
+              </div>
+
+              <h3>
+                Não é bem assim!
+              </h3>
+
+              <p>
+                Apesar de a maior parte dos leões selvagens
+                viver na África, existe uma população de leões
+                asiáticos na região do Parque Nacional de Gir,
+                na Índia.
+              </p>
+
+              <div class="curiosidade-extra">
+                <span>💡</span>
+
+                <div>
+                  <strong>Curiosidade</strong>
+
+                  <small>
+                    O leão asiático é uma subespécie
+                    de leão.
+                  </small>
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </article>
+
+
+
+        <!-- ==================================================
+             CARD 2 - PANDA
+        =================================================== -->
+
+        <article class="card-container">
+
+          <div class="card">
+
+
+            <!-- FRENTE -->
+
+            <div class="card-face card-frente">
+
+              <div class="numero">
+                02
+              </div>
+
+              <div class="imagem-container">
+
+                <img
+                  src="https://images.unsplash.com/photo-1564349683136-77e08dba1ef7?w=1000"
+                  alt="Panda"
+                >
+
+                <div class="imagem-overlay"></div>
+
+                <span class="icone-animal">
+                  🐼
+                </span>
+
+              </div>
+
+
+              <div class="card-info">
+
+                <span class="categoria">
+                  🌿 HERBÍVORO
+                </span>
+
+                <h3>
+                  Pandas comem apenas bambu?
+                </h3>
+
+                <div class="passe">
+                  <span>↻</span>
+                  Passe o mouse
+                </div>
+
+              </div>
+
+            </div>
+
+
+
+            <!-- VERSO -->
+
+            <div class="card-face card-verso verdade-card">
+
+              <div class="verso-topo">
+
+                <span class="resultado verdade">
+                  ✓ VERDADE
+                </span>
+
+                <span class="numero">
+                  02
+                </span>
+
+              </div>
+
+              <div class="simbolo-resposta">
+                ✅
+              </div>
+
+              <h3>
+                Sim, principalmente!
+              </h3>
+
+              <p>
+                O bambu representa a maior parte da dieta
+                dos pandas-gigantes. Eles passam muitas horas
+                do dia comendo para obter energia suficiente.
+              </p>
+
+              <div class="curiosidade-extra">
+                <span>💡</span>
+
+                <div>
+                  <strong>Curiosidade</strong>
+
+                  <small>
+                    Um panda pode passar várias horas
+                    por dia se alimentando.
+                  </small>
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </article>
+
+
+
+        <!-- ==================================================
+             CARD 3 - GOLFINHO
+        =================================================== -->
+
+        <article class="card-container">
+
+          <div class="card">
+
+
+            <!-- FRENTE -->
+
+            <div class="card-face card-frente">
+
+              <div class="numero">
+                03
+              </div>
+
+              <div class="imagem-container">
+
+                <img
+                  src="https://images.unsplash.com/photo-1607153333879-c174d265f1d2?w=1000"
+                  alt="Golfinho"
+                >
+
+                <div class="imagem-overlay"></div>
+
+                <span class="icone-animal">
+                  🐬
+                </span>
+
+              </div>
+
+
+              <div class="card-info">
+
+                <span class="categoria">
+                  🌊 OCEANO
+                </span>
+
+                <h3>
+                  Golfinhos dormem completamente?
+                </h3>
+
+                <div class="passe">
+                  <span>↻</span>
+                  Passe o mouse
+                </div>
+
+              </div>
+
+            </div>
+
+
+
+            <!-- VERSO -->
+
+            <div class="card-face card-verso verdade-card azul">
+
+              <div class="verso-topo">
+
+                <span class="resultado verdade">
+                  ✓ VERDADE
+                </span>
+
+                <span class="numero">
+                  03
+                </span>
+
+              </div>
+
+              <div class="simbolo-resposta">
+                🐬
+              </div>
+
+              <h3>
+                Eles descansam de um jeito especial!
+              </h3>
+
+              <p>
+                Golfinhos conseguem descansar mantendo parte
+                do cérebro ativa enquanto a outra parte repousa.
+                Isso ajuda na respiração e na vigilância.
+              </p>
+
+              <div class="curiosidade-extra">
+                <span>💡</span>
+
+                <div>
+                  <strong>Curiosidade</strong>
+
+                  <small>
+                    Eles precisam subir à superfície
+                    para respirar.
+                  </small>
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </article>
+
+
+
+        <!-- ==================================================
+             CARD 4 - CORUJA
+        =================================================== -->
+
+        <article class="card-container">
+
+          <div class="card">
+
+
+            <!-- FRENTE -->
+
+            <div class="card-face card-frente">
+
+              <div class="numero">
+                04
+              </div>
+
+              <div class="imagem-container">
+
+                <img
+                  src="https://images.unsplash.com/photo-1543549790-8b5f4a028cfb?w=1000"
+                  alt="Coruja"
+                >
+
+                <div class="imagem-overlay"></div>
+
+                <span class="icone-animal">
+                  🦉
+                </span>
+
+              </div>
+
+
+              <div class="card-info">
+
+                <span class="categoria">
+                  🌙 AVE
+                </span>
+
+                <h3>
+                  Corujas conseguem girar a cabeça 360°?
+                </h3>
+
+                <div class="passe">
+                  <span>↻</span>
+                  Passe o mouse
+                </div>
+
+              </div>
+
+            </div>
+
+
+
+            <!-- VERSO -->
+
+            <div class="card-face card-verso mito-card roxo">
+
+              <div class="verso-topo">
+
+                <span class="resultado mito">
+                  ✕ MITO
+                </span>
+
+                <span class="numero">
+                  04
+                </span>
+
+              </div>
+
+              <div class="simbolo-resposta">
+                🦉
+              </div>
+
+              <h3>
+                Quase, mas não 360°!
+              </h3>
+
+              <p>
+                Algumas espécies conseguem girar a cabeça
+                aproximadamente 270 graus. A estrutura especial
+                do pescoço permite esse movimento impressionante.
+              </p>
+
+              <div class="curiosidade-extra">
+                <span>💡</span>
+
+                <div>
+                  <strong>Curiosidade</strong>
+
+                  <small>
+                    As corujas possuem adaptações especiais
+                    nas vértebras do pescoço.
+                  </small>
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </article>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- ==================================================
+         ESTATÍSTICAS
+    =================================================== -->
+
+    <section class="estatisticas">
+
+      <div class="estatistica">
+
+        <span>🌎</span>
+
+        <strong>7</strong>
+
+        <p>
+          continentes
+        </p>
+
+      </div>
+
+
+      <div class="linha"></div>
+
+
+      <div class="estatistica">
+
+        <span>🐾</span>
+
+        <strong>8M+</strong>
+
+        <p>
+          espécies estimadas
+        </p>
+
+      </div>
+
+
+      <div class="linha"></div>
+
+
+      <div class="estatistica">
+
+        <span>💚</span>
+
+        <strong>∞</strong>
+
+        <p>
+          descobertas
+        </p>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- ==================================================
+         SOBRE
+    =================================================== -->
+
+    <section
+      class="sobre"
+      id="sobre"
+    >
+
+      <div class="sobre-ilustracao">
+
+        <div class="folha folha-1">
+          🌿
+        </div>
+
+        <div class="folha folha-2">
+          🍃
+        </div>
+
+        <div class="animal-sobre">
+          🐯
+        </div>
+
+      </div>
+
+
+      <div class="sobre-texto">
+
+        <span class="pequeno-titulo">
+          🌱 APRENDER É EXPLORAR
+        </span>
+
+        <h2>
+          A natureza está cheia de
+          <strong>surpresas.</strong>
+        </h2>
+
+        <p>
+          Cada animal possui características únicas que ajudam
+          na sua sobrevivência. Alguns desenvolveram habilidades
+          incríveis, enquanto outros possuem comportamentos
+          que parecem até impossíveis.
+        </p>
+
+        <p>
+          Continue explorando e descubra quantas curiosidades
+          você realmente conhece!
+        </p>
+
+        <div class="assinatura">
+          🐾 Feito para quem ama a natureza
+        </div>
+
+      </div>
+
+    </section>
+
   </main>
-  
+
+
+
+  <!-- ==================================================
+       FOOTER
+  =================================================== -->
+
   <footer>
-    <p>Projeto feito por Maria Clara 💜</p>
+
+    <div class="footer-logo">
+      🐾 <strong>Mundo Animal</strong>
+    </div>
+
+    <p>
+      Curiosidade é o primeiro passo para conhecer
+      melhor o nosso planeta. 🌎
+    </p>
+
+    <div class="footer-linha"></div>
+
+    <small>
+      Projeto educativo • Feito com HTML + CSS
+    </small>
+
   </footer>
+
+</body>
+
+</html>
   
